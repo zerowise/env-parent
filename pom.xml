@@ -5,6 +5,7 @@
 	<groupId>com.github.zerowise</groupId>
 	<artifactId>env-parent</artifactId>
 	<version>1.8</version>
+	<packaging>pom</packaging>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
