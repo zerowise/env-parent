@@ -42,22 +42,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.1.1</version>
-				<configuration>
-					<archive>
-						<manifest>
-							<addClasspath>true</addClasspath>
-							<mainClass>fully.qualified.MainClass</mainClass>
-							<classpathPrefix>lib/</classpathPrefix>
-						</manifest>
-
-						<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
-					</archive>
-				</configuration>
-			</plugin>
 			<!-- 指定多个源代码目录、多个资源文件目录 -->
 
 			<plugin>
